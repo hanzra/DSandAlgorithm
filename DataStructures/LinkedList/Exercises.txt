@@ -1,0 +1,10 @@
+﻿Insert in sorted list
+Stack using linked list
+Queue using double ended linked list
+sorted list insertion
+Efficiancy of sorted linked list
+Sort array using sorted linked list 
+Iterator
+Tower of Hanoi
+Recusrsion with stack
+Triangle with while and stack

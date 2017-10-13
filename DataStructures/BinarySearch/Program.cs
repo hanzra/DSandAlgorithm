@@ -9,6 +9,9 @@ namespace BinarySearch
             BinarySearch br = new BinarySearch();
             int searchnumber;
             string moreSearch = "Y";
+
+            
+
             do
             {
                 Console.WriteLine("enternumber");

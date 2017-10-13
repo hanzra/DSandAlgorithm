@@ -18,21 +18,22 @@ namespace BinarySearch
 
             while (lo <= hi)
             {
-                int Mid = lo + (hi - lo) / 2;
-                if (arr[Mid] == number)
+                int mid = lo + (hi-lo) / 2;
+                if(number == arr[mid])
                 {
                     OutPut(comparison, true);
-                    return true;
+                    break;
                 }
-                else if (arr[Mid] < number)
+                else if(number < arr[mid])
                 {
-                    lo = Mid + 1;
+                    hi = mid - 1;
+                    comparison++;
                 }
                 else
                 {
-                    hi = Mid - 1;
-                }
-                comparison++;
+                    lo = mid + 1;
+                    comparison++;
+                }                
             }
             OutPut(comparison, false);
             return false;
