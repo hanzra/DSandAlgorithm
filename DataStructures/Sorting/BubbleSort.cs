@@ -67,7 +67,7 @@ namespace Sorting
                 int temp = array[i];
                 int pointer = i-1;
                 
-                while(pointer>=0 && array[pointer] > temp)
+                while(pointer >= 0 && array[pointer] > temp)
                 {
                     array[pointer+1] = array[pointer];
                     pointer = pointer - 1; ;

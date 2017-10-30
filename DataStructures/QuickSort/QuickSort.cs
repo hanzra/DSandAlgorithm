@@ -53,9 +53,9 @@ namespace QuickSort
             int pivot = array[upperBound];
             int pivotIndex = lowerBound;
             
-            for(int i= lowerBound; i < upperBound; i++)
+            for(int i = lowerBound; i < upperBound; i++)
             {
-                if (array[i] <=pivot)
+                if (array[i] <= pivot)
                 {
                     Swap(pivotIndex, i);
                     pivotIndex++;

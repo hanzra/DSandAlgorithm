@@ -32,6 +32,7 @@ namespace MergeSortRecursion
 
         public void SortArray() {
             int[] workspace = new int[nElement];
+            
             recSort(workspace, 0, nElement-1);
         }
 
@@ -81,12 +82,6 @@ namespace MergeSortRecursion
                 thisArray[lowerBound++] = workspace[i];
             }
         }
-
-
-
-
-
-
 
 
         private void recSort(int[] workspace,int lowerbound, int upperbound)
